@@ -127,3 +127,31 @@ button:hover {
 .iziToast-message {
   font-family: "Montserrat", sans-serif !important;
 }
+
+.load-more {
+  display: block;
+  margin: 24px auto;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4e75ff;
+  border: none;
+  cursor: pointer;
+}
+
+.load-more.hidden {
+  display: none;
+}
+
+.loader {
+  margin-top: 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
